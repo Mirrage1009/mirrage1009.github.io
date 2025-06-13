@@ -1,0 +1,119 @@
+<!-- 
+  Name: Mirrage Rahman
+  File: index.html
+  Date: 13 June 2025
+  A very brief description of the file: 
+  This is a table layout of planet data using semantic HTML elements for INFT1206 Assignment 2.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Planet Data Table</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    caption {
+      font-size: 1.5em;
+      margin: 1em 0;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: center;
+    }
+    col.name-col {
+      border: 2px solid black;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Planetary Data from Our Solar System</caption>
+    <colgroup>
+  <col class="name-col">
+  <col>
+  <col>
+  <col>
+</colgroup>
+
+<thead>
+  <tr>
+    <th scope="col">Name</th>
+    <th scope="col">Mass (10<sup>24</sup>kg)</th>
+    <th scope="col">Diameter (km)</th>
+    <th scope="col">Distance from Sun (10<sup>6</sup>km)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row" rowspan="4">Terrestrial Planets</th>
+    <td>Mercury</td>
+    <td>0.33</td>
+    <td>4,879</td>
+    <td>57.9</td>
+  </tr>
+  <tr>
+    <td>Venus</td>
+    <td>4.87</td>
+    <td>12,104</td>
+    <td>108.2</td>
+  </tr>
+  <tr>
+    <td>Earth</td>
+    <td>5.97</td>
+    <td>12,756</td>
+    <td>149.6</td>
+  </tr>
+  <tr>
+    <td>Mars</td>
+    <td>0.642</td>
+    <td>6,792</td>
+    <td>227.9</td>
+  </tr>
+
+  <tr>
+    <th scope="row" rowspan="2">Gas Giants</th>
+    <td>Jupiter</td>
+    <td>1,898</td>
+    <td>142,984</td>
+    <td>778.5</td>
+  </tr>
+  <tr>
+    <td>Saturn</td>
+    <td>568</td>
+    <td>120,536</td>
+    <td>1,433.5</td>
+  </tr>
+
+  <tr>
+    <th scope="row" rowspan="2">Ice Giants</th>
+    <td>Uranus</td>
+    <td>86.8</td>
+    <td>51,118</td>
+    <td>2,872.5</td>
+  </tr>
+  <tr>
+    <td>Neptune</td>
+    <td>102</td>
+    <td>49,528</td>
+    <td>4,495.1</td>
+  </tr>
+
+  <tr>
+    <th scope="row">Dwarf Planet</th>
+    <td>Pluto</td>
+    <td>0.0146</td>
+    <td>2,370</td>
+    <td>5,906.4</td>
+  </tr>
+</tbody>
+
+
+  </table>
+
+</body>
+</html>
