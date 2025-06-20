@@ -45,6 +45,15 @@ a:hover {
   border-bottom-color: #94d2bd;
 }
 
+ul {
+  padding-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
 body {
   margin: 0 auto;
   min-width: 1000px;
