@@ -34,6 +34,16 @@ p {
 * {
   box-sizing: border-box;
 }
+a {
+  color: #0a9396;
+  text-decoration: none;
+  border-bottom: 1px solid #0a9396;
+}
+
+a:hover {
+  color: #94d2bd;
+  border-bottom-color: #94d2bd;
+}
 
 body {
   margin: 0 auto;
