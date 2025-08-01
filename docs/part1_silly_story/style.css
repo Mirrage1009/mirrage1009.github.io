@@ -11,9 +11,6 @@ label, input, button {
   font-size: 1.2em;
 }
 
-p {
-  font-size: 1.2em;
-}
 
 .story {
   background: orange;
@@ -43,9 +40,10 @@ p {
         width: 150px;
       }
 
-      p {
-        background: #ffc125;
-        color: #5e2612;
-        padding: 10px;
-        visibility: hidden;
-      }
+    p {
+  font-size: 1.2em;
+  background: #ffc125;
+  color: #5e2612;
+  padding: 10px;
+  visibility: hidden;
+}
