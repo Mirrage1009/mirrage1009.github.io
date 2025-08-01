@@ -1,56 +1,38 @@
+<!-- 
+Name: Mirrage Rahman
+File: index.html
+Date: 01 August 2025
+A silly story generator using JavaScript.
+-->
+
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <link rel="stylesheet" href="style.css">
-<script defer src="main.js"></script>
-
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-
     <title>Silly story generator</title>
 
-    <style>
-      body {
-        font-family: helvetica, sans-serif;
-        width: 350px;
-      }
-
-      label {
-        font-weight: bold;
-      }
-
-      div {
-        padding-bottom: 20px;
-      }
-
-      input[type="text"] {
-        padding: 5px;
-        width: 150px;
-      }
-
-      p {
-        background: #ffc125;
-        color: #5e2612;
-        padding: 10px;
-        visibility: hidden;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
   </head>
 
-  <body>
+ <body>
     <h1>Silly story generator</h1>
 
-<label for="customname">Enter custom name:</label>
-<input id="customname" type="text" placeholder="Bob">
+    <div>
+      <label for="customname">Enter custom name:</label>
+      <input id="customname" type="text" placeholder="Bob">
+    </div>
 
-<p>
-  <label>US <input type="radio" name="ukus" value="us" checked></label>
-  <label>UK <input type="radio" name="ukus" value="uk"></label>
-</p>
+    <div>
+      <label>US <input type="radio" name="ukus" value="us" checked></label>
+      <label>UK <input type="radio" name="ukus" value="uk"></label>
+    </div>
 
-<button class="randomize">Generate random story</button>
+    <div>
+      <button class="randomize">Generate random story</button>
+    </div>
 
-<p class="story"></p>
-
+    <p class="story"></p>
   </body>
 </html>
