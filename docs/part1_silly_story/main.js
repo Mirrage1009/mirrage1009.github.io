@@ -32,7 +32,9 @@ function result() {
   }
 
   story.textContent = newStory;
-  story.style.visibility = 'visible';
+  story.style.display = 'block'; // Change visibility to 'block' to show the story
 }
+
+randomize.addEventListener('click', result);
 
 randomize.addEventListener('click', result);
