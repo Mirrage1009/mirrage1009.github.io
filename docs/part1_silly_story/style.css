@@ -13,7 +13,7 @@ label, input, button {
 
 
 .story {
-  display: none; /* Hide the story by default */
+  display: none;
   background: orange;
   padding: 20px;
   border: 2px solid #000;
@@ -21,6 +21,7 @@ label, input, button {
   min-height: 100px;
   font-weight: bold;
 }
+
 
 
 
@@ -47,5 +48,4 @@ label, input, button {
   background: #ffc125;
   color: #5e2612;
   padding: 10px;
-  visibility: hidden;
 }
