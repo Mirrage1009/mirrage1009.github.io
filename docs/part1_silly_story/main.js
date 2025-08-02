@@ -9,6 +9,8 @@ const insertY = ['the soup kitchen', 'Disneyland', 'the White House'];
 const insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewalk', 'turned into a slug and crawled away'];
 
 function result() {
+  console.log("Button clicked!"); // Check if the function is called
+
   let newStory = storyText;
 
   const xItem = randomValueFromArray(insertX);
@@ -32,9 +34,7 @@ function result() {
   }
 
   story.textContent = newStory;
-  story.style.display = 'block'; // Change visibility to 'block' to show the story
+  story.style.display = 'block'; // Make the story visible
 }
-
-randomize.addEventListener('click', result);
 
 randomize.addEventListener('click', result);
