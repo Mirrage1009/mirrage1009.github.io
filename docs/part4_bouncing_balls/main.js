@@ -92,7 +92,7 @@ function loop() {
 }
 
 
-loop();
+
 // EvilCircle class
 class EvilCircle {
   constructor(x, y) {
@@ -165,5 +165,8 @@ evilCircle.setControls();
 let count = balls.length;
 const ballCount = document.querySelector('.ball-count');
 ballCount.textContent = count;
+
+loop(); //
+
 
 loop();
